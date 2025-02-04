@@ -1,0 +1,112 @@
+/* Main wrapper to center the content */
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7d7b3; /* Soft peach that complements brown well */
+
+  padding: 20px;
+  text-align: center;
+}
+
+/* Quote Box Container */
+#quote-box {
+  background-color: #f0e5d8; /* Light brownish background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 500px; /* Limiting width */
+  margin: 0 auto; /* Centering */
+  display: flex; /* Flexbox to center text */
+  flex-direction: column; /* Align content in a column */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  height: 300px; /* Fixed height */
+  width: 600px;
+}
+
+/* Text (Quote) Styling */
+#text {
+  font-size: 30px; /* Larger font size for the quote */
+  font-weight: 600; /* Bold font */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Space below the quote */
+  font-style: italic; /* Italicize the quote */
+  text-align: center; /* Center the quote text */
+}
+
+/* Author Styling */
+#author {
+  font-size: 20px; /* Smaller font size for author */
+  color: #555; /* Slightly lighter text color for the author */
+  font-weight: 500; /* Medium weight for author name */
+  text-align: center; /* Center the author text */
+  margin-top: 10px; /* Space above the author name */
+}
+
+/* Button Section */
+.buttons {
+  cursor: pointer;
+  margin-top: 30px; /* Space above the buttons */
+  text-align: center; /* Center the buttons */
+}
+
+button {
+  cursor: pointer;
+  font-size: 16px; /* Font size for buttons */
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px 20px; /* Button padding */
+}
+
+/* Styling for Twitter and Tumblr Buttons */
+a.button {
+  font-size: 16px; /* Font size for the buttons */
+  margin-right: 15px; /* Space between buttons */
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* White text */
+  text-decoration: none; /* Removing underline */
+  display: inline-block; /* Make buttons inline */
+}
+
+a#tweet-quote {
+  background-color: #1DA1F2; /* Twitter Blue */
+}
+
+a#tumblr-quote {
+  background-color: #35465C; /* Tumblr Gray-Blue */
+}
+
+a.button:hover {
+  opacity: 0.8; /* Slightly reduce opacity when hovered */
+}
+
+/* Button for New Quote */
+button.btn-primary {
+  background-color: #007bff; /* Primary Blue button */
+  border: none; /* Remove button border */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Footer Section */
+.footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
