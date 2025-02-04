@@ -3,7 +3,7 @@ const quoteAuthor = document.getElementById("author");
 
 const getRandomQuote = async () => {
   try {
-    const response = await fetch('quotes.json'); 
+    const response = await fetch('quotes_100.json'); 
     const quotes = await response.json(); 
 
     const quote = quotes[Math.floor(Math.random() * quotes.length)];
