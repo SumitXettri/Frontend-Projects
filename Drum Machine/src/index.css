@@ -1,0 +1,229 @@
+/* General Styles */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+#drum-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 700px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #202020;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #ffbf00;
+}
+
+/* Drum Pad Container */
+.drum-pad-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3x3 grid */
+  gap: 15px;
+  width: 100%;
+}
+
+/* Drum Pads */
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border: 2px solid #555;
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px #222;
+}
+
+.drum-pad:hover {
+  background-color: #444;
+  transform: scale(1.05);
+  background-color: #ff5733;
+}
+
+.drum-pad.active {
+  background-color: #ff5733;
+  box-shadow: 0 0 10px #ff5733, 0 0 20px #ff5733;
+  transform: translateY(-5px);
+}
+
+/* Audio Clip (Hidden) */
+.clip {
+  display: none;
+}
+
+/* Right Compartment */
+.right-compartment {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 380px; /* Matches drum pads height */
+  padding: 20px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  background-color: #202020;
+  margin-top: 10%;
+}
+
+#display {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #ffbf00;
+  border-radius: 5px;
+  background-color: #333;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.volume-slider {
+  width: 80%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.switch-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggleSwitch {
+  cursor: pointer;
+}
+
+.bank-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbf00;
+  color: #181818;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bank-button:hover {
+  background-color: #ffc107;
+}
+.bank-name {
+  font-size: 1.2rem; /* Same font size as button text */
+  font-weight: bold; /* Same bold style as button text */
+  color: #ffbf00; /* Same button text color */
+  margin-left: 10px; /* Space between button and span */
+  padding: 5px; /* Optional padding for better alignment */
+  cursor: pointer; /* Change cursor to indicate it's interactive */
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  top: 10px; /* Distance from the top of the box */
+  right: 10px; /* Distance from the right of the box */
+  font-size: 1rem;
+  color: #888;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1; /* Ensure the logo stays on top */
+  text-align: right;
+  color: #ffbf00;
+  display: flex;
+  gap: 10px;
+  font-size: 14pt;
+}
+.fa-drum {
+  margin-top: 10%;
+}
+
+/* To hide the checkbox */
+#checkboxInput {
+  display: none;
+}
+
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  background-color: rgb(112, 112, 112);
+  border-radius: 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.slider {
+  height: 20px;
+  position: absolute;
+  left: 5px;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  border: 3px solid rgb(71, 71, 71);
+  background-color: rgb(71, 71, 71);
+  fill: rgb(255, 129, 129);
+}
+
+#checkboxInput:checked + .toggleSwitch .slider {
+  transform: translateX(100%);
+  transition-duration: 0.2s;
+  fill: rgb(94, 255, 1);
+}
+/* Switch background change */
+#checkboxInput:checked + .toggleSwitch {
+  /* background-color: rgb(148, 118, 255); */
+  transition-duration: 0.2s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #drum-machine {
+    width: 90%; /* Make it take up more space on smaller screens */
+    flex-direction: column;
+  }
+
+  .right-compartment {
+    margin-top: 20px;
+    height: auto; /* Allow height to adjust dynamically */
+    width: 100%; /* Take full width of the container */
+  }
+
+  .logo {
+    font-size: 0.9rem; /* Slightly smaller font size for smaller screens */
+  }
+}
