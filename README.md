@@ -51,3 +51,12 @@ This repository is part of my journey to:
 - Strengthen my frontend development skills.
 - Build reusable components and explore advanced CSS techniques.
 - Experiment with modern JavaScript frameworks like React.
+---
+
+## 📂 Folder Structure
+Each project has its own folder, containing:
+- Source code.
+- A **README.md** file describing the project, features, and setup instructions.
+
+##📜 License
+This repository is licensed under the MIT License. You are free to use and modify the code for your own projects.
