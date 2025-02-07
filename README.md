@@ -40,7 +40,7 @@ Here are some of the projects you'll find in this repository:
 
 1. Clone the repository:  
    ```
-   git clone https://github.com/your-username/frontend-projects.git
+   git clone https://github.com/JurgenHonest/frontend-projects.git
    ```
 2. Navigate to the project folder and run the project locally. Detailed setup instructions for each project are available in their respective folders.
 ---
