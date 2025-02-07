@@ -61,4 +61,5 @@ Each project has its own folder, containing:
 
 ## 📜 License
 This repository is licensed under the MIT License. You are free to use and modify the code for your own projects.
+
 ---
