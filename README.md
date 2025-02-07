@@ -39,6 +39,15 @@ Here are some of the projects you'll find in this repository:
 ## 🚀 How to Use
 
 1. Clone the repository:  
-   ```bash
+   ```
    git clone https://github.com/your-username/frontend-projects.git
+   ```
+2. Navigate to the project folder and run the project locally. Detailed setup instructions for each project are available in their respective folders.
+---
 
+## 💡 Learning Goals
+This repository is part of my journey to:
+
+- Strengthen my frontend development skills.
+- Build reusable components and explore advanced CSS techniques.
+- Experiment with modern JavaScript frameworks like React.
