@@ -57,6 +57,8 @@ This repository is part of my journey to:
 Each project has its own folder, containing:
 - Source code.
 - A **README.md** file describing the project, features, and setup instructions.
+---
 
-##📜 License
+## 📜 License
 This repository is licensed under the MIT License. You are free to use and modify the code for your own projects.
+---
