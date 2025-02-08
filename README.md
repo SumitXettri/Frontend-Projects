@@ -23,7 +23,13 @@ Here are some of the projects you'll find in this repository:
      - Clickable drum pads with sound.  
      - Keyboard support for drum sounds.
 
-(*Add more projects as you upload them.*)
+3. **Piano App**  
+   - **Description**: A functional piano app app with sound effects.  
+   - **Technologies**: HTML, CSS, JavaScript, React.  
+   - **Features**:  
+     - Clickable piano keys with sound.  
+     - Keyboard support for key sounds.
+
 
 ---
 
