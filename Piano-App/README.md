@@ -26,9 +26,7 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v14 or above)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/piano-app.git
+### Acknowledgements
+- Thanks to **Tailwind CSS** for providing an excellent utility-first CSS framework.
+- Thanks to **React** for the powerful JavaScript library to build user interfaces.
+- Thanks to **Vite** for its blazing-fast development environment.
