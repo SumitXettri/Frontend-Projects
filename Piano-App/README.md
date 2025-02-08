@@ -2,14 +2,16 @@
 
 A web-based piano application built with React, Vite, and Tailwind CSS. This app allows users to interact with a virtual piano by pressing keys on their keyboard or clicking on the piano keys with their mouse. It also features a clean, responsive design using modern web technologies.
 
-## Features
+🌟 Live Demo: Check it out here
+
+## 🚀 Features
 
 - Interactive piano keys that respond to both keyboard and mouse inputs.
 - Sound playback for each note when a key is pressed.
 - Clean, responsive user interface built with Tailwind CSS.
 - Optimized for both desktop and mobile devices.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **React**: For building the user interface and managing state.
 - **Vite**: For fast build times and development experience.
