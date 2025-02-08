@@ -1,0 +1,139 @@
+/* src/styles/piano.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(https://i.pinimg.com/originals/76/aa/24/76aa24bf1e433a13444c18c5df7b839b.gif);
+  background-color: black;
+  background-size: 98% 95%; /* Width 150%, height 80% */
+  background-position: center;
+  background-attachment: fixed; /* Keep the image fixed during scrolling */
+  background-repeat: no-repeat;
+  overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+.heading {
+  margin-top: 2%;
+  color: #0000005b;
+}
+
+.piano {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 2%;
+  padding: 20px;
+  backdrop-filter: blur(2px) brightness(0.8);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.white-keys {
+  display: flex;
+  position: relative;
+  gap: 4px;
+}
+
+.black-keys {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  pointer-events: none; /* Prevent black keys from blocking white keys */
+  z-index: 1; /* Ensure black keys are above white keys */
+  gap: 22px;
+}
+
+.key {
+  position: relative;
+}
+
+.white-key {
+  width: 50px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.556); /* Semi-transparent white */
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Softer border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: background-color 0.3s, transform 0.1s ease-in-out;
+  z-index: 1;
+}
+
+.white-key:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly less transparent on hover */
+  transform: translateY(-5px); /* Hover animation */
+}
+
+.white-key:active {
+  transform: translateY(2px); /* Simulate press effect */
+}
+
+.black-key {
+  width: 30px;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  border: 1px solid rgba(0, 0, 0, 0.5); /* Softer border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Pronounced shadow */
+  transition: background-color 0.3s, transform 0.1s ease-in-out, box-shadow 0.3s;
+  z-index: 2;
+  color: #dadada7a;
+  top: 0;
+}
+
+.black-key:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Less transparent on hover */
+  transform: translateY(-5px);
+}
+
+.black-key:active {
+  transform: translateY(2px); /* Simulate press effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.key-label {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.white-key .key-label {
+  color: #555;
+}
+
+.black-key .key-label {
+  color: #f0f0f0;
+}
+
+.white-key:active .key-label,
+.black-key:active .key-label {
+  color: #bbb; /* Dim the label color when pressed */
+}
+
+.key.pressed {
+  transform: scale(0.95); /* Slightly shrink to indicate it's pressed */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .white-key {
+    width: 50px;
+    height: 200px;
+  }
+
+  .black-key {
+    width: 35px;
+    height: 140px;
+  }
+
+  .key-label {
+    font-size: 12px;
+  }
+}
