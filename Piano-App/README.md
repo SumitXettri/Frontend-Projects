@@ -17,8 +17,6 @@ A web-based piano application built with React, Vite, and Tailwind CSS. This app
 - **Web Audio API**: For playing piano sounds when keys are pressed.
 - **JavaScript (ES6+)**: For app logic and interactivity.
 
-## Installation
-
 ### Prerequisites
 
 Make sure you have the following installed on your machine:
@@ -27,13 +25,13 @@ Make sure you have the following installed on your machine:
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
 ---
-### Usage
+## Usage
 - Click on any of the piano keys or press corresponding keys on your keyboard (e.g., A, S, D, etc.) to play notes.
 - The app features a responsive design, making it usable on both desktop and mobile devices.
 
 ---
 
-### Acknowledgements
+## Acknowledgements
 - Thanks to **Tailwind CSS** for providing an excellent utility-first CSS framework.
 - Thanks to **React** for the powerful JavaScript library to build user interfaces.
 - Thanks to **Vite** for its blazing-fast development environment.
