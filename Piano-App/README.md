@@ -26,6 +26,13 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v14 or above)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
+---
+### Usage
+- Click on any of the piano keys or press corresponding keys on your keyboard (e.g., A, S, D, etc.) to play notes.
+- The app features a responsive design, making it usable on both desktop and mobile devices.
+
+---
+
 ### Acknowledgements
 - Thanks to **Tailwind CSS** for providing an excellent utility-first CSS framework.
 - Thanks to **React** for the powerful JavaScript library to build user interfaces.
