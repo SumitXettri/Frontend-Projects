@@ -2,7 +2,7 @@
 
 A web-based piano application built with React, Vite, and Tailwind CSS. This app allows users to interact with a virtual piano by pressing keys on their keyboard or clicking on the piano keys with their mouse. It also features a clean, responsive design using modern web technologies.
 
-🌟 Live Demo: Check it out here
+🌟 Live Demo: Check it out here[https://pianobg.netlify.app/]
 
 ## 🚀 Features
 
