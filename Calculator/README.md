@@ -27,10 +27,10 @@ The `Calculator` component is a stateful React class component. It handles:
 - `handleOperators`: Adds operators to the formula, ensuring valid syntax.
 - `handleDecimal`: Adds a decimal point to the current number.
 - `handleEvaluate`: Evaluates the mathematical expression and displays the result.
+---
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/react-calculator.git
-   cd react-calculator
-
+## Technologies Used
+- React
+- JSX
+- CSS Grid for layout
+- Tailwind
