@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./styles/App.css";
-import Piano from "./components/Piano";
+import Calculator from "./Calculator.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-center text-3xl font-bold underline heading">
-        Piano App
+        React Calculator
       </h1>
-      <Piano />
+      <Calculator />
     </div>
   );
 }
