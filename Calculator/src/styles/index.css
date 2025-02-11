@@ -1,1 +1,168 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  animation: fade-in 0.5s ease-out;
+}
 
+/* Calculator container */
+.calculator {
+  width: 320px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  animation: scale-up 0.6s ease-out;
+}
+
+/* Display section */
+.display {
+  background: #222;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  font-size: 2rem;
+  height: 80px;
+  animation: slide-in 0.3s ease-out;
+}
+
+.formula {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Buttons container */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: #ccc;
+  animation: buttons-fade 0.7s ease-out;
+}
+
+/* Buttons */
+button {
+  font-size: 1.5rem;
+  padding: 20px;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.1s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button.pressed {
+  transform: scale(0.95);
+  background: #d0d0d0;
+}
+
+button:active {
+  background: #d0d0d0;
+  transform: scale(0.98);
+}
+
+/* Special button styles */
+.operator {
+  background: #f9a825;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.operator:hover {
+  background: #f57f17;
+}
+
+.operator:active {
+  background: #e59400;
+}
+
+.equals {
+  background: #388e3c;
+  color: white;
+  grid-row: span 2;
+}
+
+.equals:hover {
+  background: #4caf50;
+}
+
+.equals:active {
+  background: #2e7d32;
+}
+
+.clear {
+  background: #d32f2f;
+  color: white;
+}
+
+.clear:hover {
+  background: #c62828;
+}
+
+.clear:active {
+  background: #b71c1c;
+}
+
+/* Zero button spans two columns */
+.jumbo {
+  grid-column: span 3;
+}
+
+/* Adjust equals button for proper alignment */
+#equals {
+  padding: 20px;
+}
+
+/* Keyframe animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-up {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes buttons-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
