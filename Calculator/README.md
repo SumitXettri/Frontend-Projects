@@ -3,15 +3,18 @@
 A simple React-based calculator that supports basic arithmetic operations (`+`, `-`, `x`, `/`) and displays the current formula and result dynamically.
 
 🌟 Live Demo: Check it out [here](https://calc-9869.netlify.app/)
+---
 
-## Features
+## 🚀 Features
 - Perform basic arithmetic calculations.
 - Display the formula and result dynamically.
 - Reset the calculator using the "AC" button.
 - Handle decimal inputs.
 - Prevent invalid input sequences (e.g., multiple decimals).
 
-## Project Structure
+---
+
+## 📂 Project Structure
 
 ### Main Component: `Calculator`
 The `Calculator` component is a stateful React class component. It handles:
