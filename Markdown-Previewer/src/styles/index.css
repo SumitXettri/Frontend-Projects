@@ -1,1 +1,85 @@
+/* Global Styles */
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #212529; /* Dark background */
+  color: #f8f9fa;
+}
 
+h1 {
+  color: #39ff14;
+}
+
+h5 {
+  color: #39ff14;
+}
+
+/* Editor Styles */
+.editor-container {
+  background-color: #1d2124; /* Darker background for the editor */
+  border: 1px solid #39ff14;
+  border-radius: 5px;
+  padding: 20px;
+  height: 400px;
+}
+
+textarea {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  padding: 15px;
+  resize: vertical;
+  box-sizing: border-box;
+  background-color: #0d0f11; /* Darker background for the textarea */
+  color: #39ff14; /* Bright green text color */
+  transition: all 0.3s ease;
+  height: 300px;
+}
+
+textarea:focus {
+  border-color: #39ff14; /* Focus border becomes bright green */
+  outline: none;
+}
+
+.previewer-container {
+  background-color: 39ff14;
+  border: 1px solid #39ff14;
+  border-radius: 5px;
+  padding: 0;
+}
+
+#preview {
+  color: #000000;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+#preview h1,
+#preview h2,
+#preview h3 {
+  color: #00bfff;
+}
+
+#preview a {
+  color: #39ff14; /* Green for links */
+  text-decoration: none;
+}
+
+#preview a:hover {
+  text-decoration: underline;
+}
+
+#preview code {
+  background-color: #212529; /* Dark background for code */
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: #39ff14; /* Green text for code */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
