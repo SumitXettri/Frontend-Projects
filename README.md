@@ -2,6 +2,8 @@
 
 A simple Markdown Previewer built with React, Redux, and Marked.js. This project allows you to input Markdown syntax in the editor and instantly preview the rendered HTML output.
 
+🌟 **Live Demo:**  Check it out [here](https://markdown-previewer67.netlify.app/)
+
 ## 🚀 Features
 - Real-time Markdown preview.
 - Support for common Markdown syntax, including:
