@@ -1,168 +1,85 @@
-/* General body styling */
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  background: #1e1e1e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  animation: fade-in 0.5s ease-out;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #212529; /* Dark background */
+  color: #f8f9fa;
 }
 
-/* Calculator container */
-.calculator {
-  width: 320px;
-  background: white;
-  border-radius: 10px;
-  border: 1px solid #1e1e1e;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  animation: scale-up 0.6s ease-out;
+h1 {
+  color: #39ff14;
 }
 
-/* Display section */
-.display {
-  background: #222;
-  color: white;
+h5 {
+  color: #39ff14;
+}
+
+/* Editor Styles */
+.editor-container {
+  background-color: #1d2124; /* Darker background for the editor */
+  border: 1px solid #39ff14;
+  border-radius: 5px;
+  padding: 20px;
+  height: 400px;
+}
+
+textarea {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  padding: 15px;
+  resize: vertical;
+  box-sizing: border-box;
+  background-color: #0d0f11; /* Darker background for the textarea */
+  color: #39ff14; /* Bright green text color */
+  transition: all 0.3s ease;
+  height: 300px;
+}
+
+textarea:focus {
+  border-color: #39ff14; /* Focus border becomes bright green */
+  outline: none;
+}
+
+.previewer-container {
+  background-color: 39ff14;
+  border: 1px solid #39ff14;
+  border-radius: 5px;
+  padding: 0;
+}
+
+#preview {
+  color: #000000;
+  background-color: #f8f9fa;
   padding: 10px;
-  text-align: right;
-  font-size: 2rem;
-  height: 80px;
-  animation: slide-in 0.3s ease-out;
 }
 
-.formula {
-  font-size: 1rem;
-  color: #aaa;
+#preview h1,
+#preview h2,
+#preview h3 {
+  color: #00bfff;
 }
 
-/* Buttons container */
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  background: #ccc;
-  animation: buttons-fade 0.7s ease-out;
+#preview a {
+  color: #39ff14; /* Green for links */
+  text-decoration: none;
 }
 
-/* Buttons */
-button {
-  font-size: 1.5rem;
-  padding: 20px;
-  border: none;
-  background: #e0e0e0;
-  cursor: pointer;
-  text-align: center;
-  transition: transform 0.1s ease, background 0.2s ease, box-shadow 0.2s ease;
+#preview a:hover {
+  text-decoration: underline;
 }
 
-button:hover {
-  transform: scale(1);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+#preview code {
+  background-color: #212529; /* Dark background for code */
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: #39ff14; /* Green text for code */
 }
 
-button.pressed {
-  transform: scale(0.95);
-  background: #d0d0d0;
-}
-
-button:active {
-  background: #d0d0d0;
-  transform: scale(0.98);
-}
-
-/* Special button styles */
-.operator {
-  background: #f9a825;
-  color: white;
-  transition: background 0.3s ease;
-}
-
-.operator:hover {
-  background: #f57f17;
-}
-
-.operator:active {
-  background: #e59400;
-}
-
-.equals {
-  background: #388e3c;
-  color: white;
-  grid-row: span 2;
-}
-
-.equals:hover {
-  background: #4caf50;
-}
-
-.equals:active {
-  background: #2e7d32;
-}
-
-.clear {
-  background: #d32f2f;
-  color: white;
-}
-
-.clear:hover {
-  background: #c62828;
-}
-
-.clear:active {
-  background: #b71c1c;
-}
-
-/* Zero button spans two columns */
-.jumbo {
-  grid-column: span 3;
-}
-
-/* Adjust equals button for proper alignment */
-#equals {
-  padding: 20px;
-}
-
-/* Keyframe animations */
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes scale-up {
-  from {
-    transform: scale(0.9);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes buttons-fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
   }
 }
