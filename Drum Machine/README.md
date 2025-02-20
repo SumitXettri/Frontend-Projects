@@ -21,10 +21,10 @@ A simple drum machine built with React that allows users to play drum sounds usi
 - CSS/Bootstrap (if used)
 
 ## Project Structure
-📦 drum-machine/  
-├── 📂 public/ — Static files (e.g., `index.html`)  
+📦 drum-machine  
+├── 📂 public — Static files (e.g., `index.html`)  
 │   └── 📄 index.html — Main HTML file  
-├── 📂 src/ — Source files  
+├── 📂 src — Source files  
 │   ├── 📂 components/ — Reusable React components  
 │   │   ├── 🎵 DrumPad.jsx — Individual drum pad component  
 │   ├── 📄 App.jsx — Main application component  
