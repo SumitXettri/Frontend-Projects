@@ -21,7 +21,6 @@ A simple drum machine built with React that allows users to play drum sounds usi
 - CSS/Bootstrap (if used)
 
 ## Project Structure
-
 📦 drum-machine/  
 ├── 📂 public/ — Static files (e.g., `index.html`)  
 │   └── 📄 index.html — Main HTML file  
@@ -36,6 +35,7 @@ A simple drum machine built with React that allows users to play drum sounds usi
 ├── ⚙️ vite.config.js — Vite configuration file  
 └── 📖 README.md — Project documentation  
 ---
+
 ## Installation
 
 Install necessary packages
