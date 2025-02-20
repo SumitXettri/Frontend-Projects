@@ -1,4 +1,4 @@
-# Drum Machine
+# 🥁 Drum Machine
 
 A simple drum machine built with React that allows users to play drum sounds using keyboard keys or by clicking the drum pads. The project also includes features like volume control, power toggle, and drum sound bank switching.
 
