@@ -2,11 +2,14 @@
 
 A simple drum machine built using React, Tailwind CSS, and Vite. This project allows users to play drum sounds using both mouse clicks and keyboard keys.
 
-
-🌟 **Live Demo:**  Check it out [here](https://drummachine67.netlify.app/)
 ---
 
-## 📂 Project Structure
+## 🌟 Live Demo  
+🔗 **Check it out here:** [Drum Machine](https://drummachine67.netlify.app/)
+
+---
+
+## 📂 Project Structure  
 
 ```
 📦 drum-machine/
@@ -24,19 +27,22 @@ A simple drum machine built using React, Tailwind CSS, and Vite. This project al
 └── 📖 README.md          # Project documentation
 ```
 
-## 🚀 Features
-- 🎹 Play drum sounds using keyboard keys (Q, W, E, A, S, D, Z, X, C).
-- 🖱️ Clickable drum pads.
-- 🔊 Adjustable volume.
-- 🔄 Toggle power on/off.
-- 🎛️ Switch between two sound banks.
+## 🚀 Features  
+
+✅ 🎹 **Keyboard Support** – Play drum sounds using (Q, W, E, A, S, D, Z, X, C).  
+✅ 🖱️ **Mouse Support** – Click on drum pads to play sounds.  
+✅ 🔊 **Volume Control** – Adjust sound levels easily.  
+✅ 🔄 **Power Toggle** – Enable/disable the drum machine.  
+✅ 🎛️ **Sound Bank Switching** – Swap between different sound banks.  
+
 ---
 
-## 🛠️ Technologies Used
-- ⚛️ React - Front-end framework.
-- 🎨 Tailwind CSS - For styling.
-- ⚡ Vite - For fast development.
-- 🔊 FreeCodeCamp Drum Sounds - Sound effects.
+## 🛠️ Technologies Used  
+
+- ⚛️ **React** – Front-end framework  
+- 🎨 **Tailwind CSS** – For styling  
+- ⚡ **Vite** – For fast development  
+- 🔊 **FreeCodeCamp Drum Sounds** – Sound effects  
 
 ---
 ## 📦 Installation
