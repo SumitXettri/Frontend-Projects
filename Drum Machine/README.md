@@ -2,6 +2,8 @@
 
 A simple drum machine built with React that allows users to play drum sounds using keyboard keys or by clicking the drum pads. The project also includes features like volume control, power toggle, and drum sound bank switching.
 
+
+
 ## Features
 
 - Play drum sounds using keyboard keys (`Q`, `W`, `E`, `A`, `S`, `D`, `Z`, `X`, `C`).
@@ -18,9 +20,13 @@ A simple drum machine built with React that allows users to play drum sounds usi
 - HTML
 - CSS/Bootstrap (if used)
 
+## Project Structure
+drum-machine/ │── public/ # Static files (e.g., index.html) │── src/ # Source files │ ├── components/ # Reusable React components │ │ ├── DrumPad.jsx # Drum pad component │ ├── App.jsx # Main application component │ ├── index.jsx # Entry point for React app │ ├── index.css # Global styles │── .gitignore # Git ignore file │── package.json # Project dependencies and scripts │── vite.config.js # Vite configuration file │── README.md # Project documentation
+
 ## Installation
 
-1. Clone the repository:
+Install necessary packages
    ```
-   git clone https://github.com/your-username/drum-machine.git
+   npm install
+
 ```
