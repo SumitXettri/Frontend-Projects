@@ -21,19 +21,21 @@ A simple drum machine built with React that allows users to play drum sounds usi
 - CSS/Bootstrap (if used)
 
 ## Project Structure
-📦 drum-machine/
-├── 📂 public/ # Static files (e.g., index.html)
-│ └── 📄 index.html # Main HTML file
-├── 📂 src/ # Source files
-│ ├── 📂 components/ # Reusable React components
-│ │ ├── 🎵 DrumPad.jsx # Individual drum pad component
-│ ├── 📄 App.jsx # Main application component
-│ ├── 📄 index.jsx # Entry point for React app
-│ ├── 🎨 index.css # Global styles
-├── 📄 .gitignore # Ignore unnecessary files in Git
-├── 📦 package.json # Project dependencies and scripts
-├── ⚙️ vite.config.js # Vite configuration file
-└── 📖 README.md # Project documentation
+
+📦 drum-machine/  
+├── 📂 public/ — Static files (e.g., `index.html`)  
+│   └── 📄 index.html — Main HTML file  
+├── 📂 src/ — Source files  
+│   ├── 📂 components/ — Reusable React components  
+│   │   ├── 🎵 DrumPad.jsx — Individual drum pad component  
+│   ├── 📄 App.jsx — Main application component  
+│   ├── 📄 index.jsx — Entry point for React app  
+│   ├── 🎨 index.css — Global styles  
+├── 📄 .gitignore — Ignore unnecessary files in Git  
+├── 📦 package.json — Project dependencies and scripts  
+├── ⚙️ vite.config.js — Vite configuration file  
+└── 📖 README.md — Project documentation  
+---
 ## Installation
 
 Install necessary packages
