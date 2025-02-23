@@ -30,6 +30,22 @@ Here are some of the projects you'll find in this repository:
      - Clickable piano keys with sound.  
      - Keyboard support for key sounds.
 
+4. **Markdown Previewer**
+- **Description**: A simple Markdown editor that converts Markdown syntax into formatted text.
+- **Technologies**: HTML, CSS, JavaScript, React, Redux, Bootstrap.
+- **Features**:
+   - Real-time preview of Markdown input.
+   - Supports GitHub-flavored Markdown.
+   - Responsive design.
+
+5. **React Calculator**
+- **Description**: A basic calculator built using React.
+- **Technologies**: HTML, CSS, JavaScript, React.
+- **Features**:
+   - Basic arithmetic operations.
+   - Responsive design.
+   - Styled UI with Bootstrap.
+
 
 ---
 
