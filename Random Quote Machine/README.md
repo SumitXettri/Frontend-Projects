@@ -14,11 +14,11 @@ This is a simple **Random Quote Generator** built using **HTML, CSS, and JavaScr
 
 ## 📁 Project Structure  
 
-📂 random-quote-generator  
+📂 Random quote generator  
 ├── styles.css  # Styling file  
 ├── quotes.json  # JSON file containing quotes  
-├── api-script.js  # Fetches quotes from an API  
-├── json-script.js  # Loads quotes from a JSON file  
-├── object-script.js  # Uses an object array for quotes  
+├── script1.js  # Fetches quotes from an API  
+├── script2.js  # Uses an object array for quotes 
+├── script3.js  # Loads quotes from a JSON file  
 │── index.html  # Main HTML file  
 │── README.md  # Documentation  
