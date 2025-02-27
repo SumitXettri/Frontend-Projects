@@ -2,7 +2,9 @@
 
 A simple React-based calculator that supports basic arithmetic operations (`+`, `-`, `x`, `/`) and displays the current formula and result dynamically.
 
-🌟**Live Demo**: Check it out [here](https://calc-9869.netlify.app/)
+## 🌟 Live Demo  
+🔗 **Check it out here:** [Calculator](https://calc-9869.netlify.app/)
+
 ---
 
 ## 🚀 Features
