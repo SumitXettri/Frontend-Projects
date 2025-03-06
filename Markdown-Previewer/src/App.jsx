@@ -14,8 +14,10 @@ class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
+        <div className="text-center nav mb-4">
+          <h1>Markdown Previewer 📝</h1>
+        </div>
         <div className="container py-4">
-          <h1 className="text-center mb-4">Markdown Previewer 📝</h1>
           <div className="row">
             <div className="col-md-6">
               <div className="editor-container">
