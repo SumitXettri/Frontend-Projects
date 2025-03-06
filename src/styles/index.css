@@ -15,11 +15,21 @@ h5 {
 
 /* Editor Styles */
 .editor-container {
-  background-color: #1d2124; /* Darker background for the editor */
+  background-color: #1d2124;
   border: 1px solid #39ff14;
   border-radius: 5px;
   padding: 20px;
-  height: 400px;
+  height: 600px;
+}
+
+.nav {
+  background-color: #00000086;
+  height: 15vh;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  color: green;
 }
 
 textarea {
@@ -34,7 +44,7 @@ textarea {
   background-color: #0d0f11; /* Darker background for the textarea */
   color: #39ff14; /* Bright green text color */
   transition: all 0.3s ease;
-  height: 300px;
+  height: 500px;
 }
 
 textarea:focus {
@@ -71,10 +81,10 @@ textarea:focus {
 }
 
 #preview code {
-  background-color: #212529; /* Dark background for code */
+  background-color: #212529;
   border-radius: 5px;
   padding: 2px 5px;
-  color: #39ff14; /* Green text for code */
+  color: #39ff14;
 }
 
 /* Responsive Design */
