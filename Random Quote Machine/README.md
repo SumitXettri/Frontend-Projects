@@ -13,7 +13,7 @@ This is a simple **Random Quote Generator** built using **HTML, CSS, and JavaScr
 ✔ Copy quotes and share them on social media.  
 
 ## 📁 Project Structure  
-
+```
 📂 Random quote generator  
 ├── styles.css  # Styling file  
 ├── quotes.json  # JSON file containing quotes  
@@ -22,3 +22,4 @@ This is a simple **Random Quote Generator** built using **HTML, CSS, and JavaScr
 ├── script3.js  # Loads quotes from a JSON file  
 │── index.html  # Main HTML file  
 │── README.md  # Documentation  
+```
