@@ -89,6 +89,12 @@ Each project has its own folder, containing:
 - A **README.md** file describing the project, features, and setup instructions.
 ---
 
+## 👨‍💻 Contributing
+- Want to contribute to this project? Feel free to fork the repository, make your changes, and submit a pull request!
+- If you like this project, don’t forget to star ⭐ it to show your support! 😊
+
+---
+
 ## 📜 License
 This repository is licensed under the MIT License. You are free to use and modify the code for your own projects.
 
