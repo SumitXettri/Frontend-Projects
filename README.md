@@ -28,28 +28,28 @@ Here are some of the projects you'll find in this repository:
 ### 2️⃣ **Piano** 🎹  
 **Play piano sounds** using your keyboard or on-screen keys.  
 ✅ Interactive piano with sound effects and keys.  
-🔗 **[Live Demo](https://pianobg.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/main/Piano-App)  
+🔗 **[Live Demo](https://pianobg.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/piano)  
 
 ---
 
 ### 3️⃣ **Drum Machine** 🥁  
 **Play drum sounds** using your keyboard or on-screen buttons.  
 ✅ Built with **React**, supports keyboard shortcuts & smooth UI.  
-🔗 **[Live Demo](https://drummachine67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/main/Drum%20Machi)  
+🔗 **[Live Demo](https://drummachine67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/deploy)  
 
 ---
 
 ### 4️⃣ **Calculator** 🧮  
 **A simple web-based calculator** with basic arithmetic operations.  
 ✅ Fully functional, **real-time calculations**, and keyboard support.  
-🔗 **[Live Demo](https://calc-9869.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/main/Calculator)  
+🔗 **[Live Demo](https://calc-9869.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/calc)  
 
 ---
 
 ### 5️⃣ **Markdown Previewer** 📝  
 **Preview Markdown in real-time** as you type.  
 ✅ Live preview with support for common Markdown syntax.  
-🔗 **[Live Demo](https://markdown-previewer67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/main/Markdown-Previewer)  
+🔗 **[Live Demo](https://markdown-previewer67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/Markdow)  
 
 
 ---
