@@ -19,6 +19,19 @@ A simple Markdown Previewer built with React, Redux, and Marked.js. This project
 
 ---
 
+## 🔧 Installation 
+
+1. **Clone this repository:**  
+   ```
+   git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
+   ```
+2. **Run the command**:
+  ```
+    npm run dev
+  ```
+
+---
+
 ## 🛠️ Tech Stack
 
 - React
