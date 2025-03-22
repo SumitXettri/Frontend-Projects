@@ -59,11 +59,7 @@ Make sure you have the following installed on your machine:
 Frontend-Projects/
 │── 📁 **public/**  
 │   ├── 🖼️ **piano-p.png**  
-│── 📁 **sound/**  
-│── 📄 **index.html**  
-│── 📄 **package.json**  
-│── 📄 **eslint.config.js**  
-│── 📄 **vite.config.js**  
+│── 📁 **sound/**   
 │── 📁 **src/**  
 │   ├── 📁 **assets/**  
 │   │   ├── 📄 **blackKeys.js**  
@@ -75,8 +71,14 @@ Frontend-Projects/
 │   │   ├── 📄 **App.css**  
 │   │   ├── 📄 **index.css**  
 │   ├── 📄 **App.jsx**  
-│   ├── 📄 **main.jsx**  
+│   ├── 📄 **main.jsx**
+│── 📄 **.gitignore**
 │── 📄 **README.md**
+│── 📄 **eslint.config.js**  
+│── 📄 **index.html**  
+│── 📄 **package.json**
+│── 📄 **package-lock.json**
+│── 📄 **vite.config.js** 
 ```
 
 ---
