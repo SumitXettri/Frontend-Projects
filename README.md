@@ -33,16 +33,20 @@ Here's an overview of the file structure for this project:
 ├── README.md         # Documentation and project details  
 ```
 
-## 🔧 Installation 
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
 
-1. **Clone this repository:**  
-   ```
-   git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
-   ```
-2. **Run the command**:
-  ```
-    npm run dev
-  ```
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
+```
 
 ---
 
