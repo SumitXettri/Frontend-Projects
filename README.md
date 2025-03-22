@@ -22,9 +22,13 @@ A simple React-based calculator that supports basic arithmetic operations (`+`, 
   git clone --branch calc https://github.com/JurgenHonest/Frontend-Projects.git
 
 ```
-2️⃣ Start the development server:
+2️⃣ Install dependencies:
 ```
-  npm run dev
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
 ```
 ---
 
