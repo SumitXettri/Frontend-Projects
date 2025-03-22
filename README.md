@@ -30,6 +30,7 @@ Make sure you have the following installed on your machine:
 1️⃣ ***Clone the repository***:  
 ```
   git clone --branch piano https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
 
 ```
 2️⃣ Install dependencies:
