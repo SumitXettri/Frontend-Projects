@@ -46,9 +46,20 @@ A simple drum machine built using React, Tailwind CSS, and Vite. This project al
 
 ---
 ## 📦 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch deploy https://github.com/JurgenHonest/Frontend-Projects.git
+
+```
+2️⃣ Install dependencies:
 ```
   npm install
 ```
+3️⃣ Start the development server:
+```
+npm run dev
+```
+---
 
 ## 🎮 Usage
 - Press the power switch to turn on the drum machine.
