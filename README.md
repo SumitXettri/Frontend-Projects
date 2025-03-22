@@ -16,6 +16,19 @@ A simple React-based calculator that supports basic arithmetic operations (`+`, 
 
 ---
 
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch calc https://github.com/JurgenHonest/Frontend-Projects.git
+
+```
+2️⃣ Start the development server:
+```
+  npm run dev
+```
+---
+
+
 ## 📂 Project Structure
 
 ### Main Component: `Calculator`
