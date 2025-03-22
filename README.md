@@ -4,10 +4,6 @@ A web-based piano application built with **React**, **Vite**, and **Tailwind CSS
 
 🌟 **Live Demo**: Check it out [here](https://pianobg.netlify.app/)
 
-![Piano App](https://img.shields.io/badge/Live_Demo-Available-brightgreen)  
-![React](https://img.shields.io/badge/React-v18.2.0-blue)  
-![Vite](https://img.shields.io/badge/Vite-v4.2.0-yellow)  
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v3.0-pink)  
 
 ---
 
