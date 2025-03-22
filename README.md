@@ -51,6 +51,6 @@ npm run dev
 ```
 npm run dev
 ```
-This will start the app on http://localhost:3000 (or the port specified by Vite).
+This will start the app on http://localhost:5173 (or the port specified by Vite).
 
 ---
