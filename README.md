@@ -26,6 +26,21 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v14 or above)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch piano https://github.com/JurgenHonest/Frontend-Projects.git
+
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
+```
+---
 ---
 ## Usage
 - Click on any of the piano keys or press corresponding keys on your keyboard (e.g., A, S, D, etc.) to play notes.
