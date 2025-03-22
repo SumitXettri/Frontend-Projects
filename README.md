@@ -33,6 +33,19 @@ Here's an overview of the file structure for this project:
 ├── README.md         # Documentation and project details  
 ```
 
+## 🔧 Installation 
+
+1. **Clone this repository:**  
+   ```
+   git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
+   ```
+2. **Run the command**:
+  ```
+    npm run dev
+  ```
+
+---
+
 ## 🛠️ Technologies Used
 - HTML5 – Markup and structure
 - CSS3 – Styling, animations, and responsiveness
