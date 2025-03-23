@@ -36,7 +36,7 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
 
 ## 📂 Project Structure
 
-```sh
+```
 Frontend-Projects/
 │── 📁 **public/**  
 │   ├── 🖼️ **favicon-32x32.png**   
@@ -54,6 +54,7 @@ Frontend-Projects/
 │── 📄 **package-lock.json**
 │── 📄 **package.json**
 │── 📄 **vite.config.js**
+```
 
 ## 🚀 Installation
 1️⃣ ***Clone the repository***:  
@@ -70,23 +71,17 @@ Frontend-Projects/
 ```
 npm run dev
 ```
----
 
-
-## 🛠️ Tech Stack
-
-- React
-- Redux
-- Marked.js
-- Bootstrap (for styling)
-- Vite (for bundling)
-
----
-
-## 🏗️  Run the development server:
-```
-npm run dev
-```
 This will start the app on http://localhost:5173 (or the port specified by Vite).
 
 ---
+
+
+## 🎨 How It Works
+
+- 📝 **Write Markdown** in the editor panel
+- 👀 **Preview the formatted HTML** in real-time
+- 🔄 **Modify content dynamically** with Redux state management
+
+---
+
