@@ -1,11 +1,14 @@
-# 🌟 Random Quote Generator  
+# 🌟 Random Quote Generator 
 
-This is a simple **Random Quote Generator** built using **HTML, CSS, and JavaScript**. The project provides three different ways to generate quotes:  
-1. **Using an API** – Fetches quotes dynamically from an online source.  
-2. **Using a JSON file** – Loads quotes from a local JSON file.  
-3. **Using an Object Array** – Predefined quotes stored inside a JavaScript script.  
+A simple **Random Quote Generator** built using **HTML, CSS, and JavaScript**.  
+This project provides **three different ways** to generate quotes:  
+1️⃣ **Using an API** – Fetches quotes dynamically from an online source.  
+2️⃣ **Using a JSON file** – Loads quotes from a local JSON file.  
+3️⃣ **Using an Object Array** – Predefined quotes stored inside a JavaScript script.  
 
-The project offers a fun and interactive way to get inspired by random quotes, along with features that allow users to easily copy quotes or share them on social media platforms.  
+🔹 **Easily copy quotes** or **share them on social media** with a simple click! 
+
+---
 
 ## 📌 Features  
 - ✔ **Dynamic Quote Fetching** from an API.  
@@ -32,6 +35,23 @@ Here's an overview of the file structure for this project:
 ├── script3.js        # Loads quotes from the local JSON file  
 ├── README.md         # Documentation and project details  
 ```
+
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
+
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
+```
+
+---
 
 ## 🛠️ Technologies Used
 - HTML5 – Markup and structure
