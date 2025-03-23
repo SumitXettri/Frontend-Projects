@@ -1,38 +1,87 @@
-# Markdown Previewer 📝
+# 📝 Markdown Previewer
 
-A simple Markdown Previewer built with React, Redux, and Marked.js. This project allows you to input Markdown syntax in the editor and instantly preview the rendered HTML output.
+A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. This project enables users to type Markdown syntax in an editor and instantly preview the rendered **HTML output**.
 
-🌟 **Live Demo:**  Check it out [here](https://markdown-previewer67.netlify.app/)
+🌟 **Live Demo:**  
+🔗 [Check it out here](https://markdown-previewer67.netlify.app/)
+
+---
 
 ## 🚀 Features
-- Real-time Markdown preview.
-- Support for common Markdown syntax, including:
-  - Headings (H1, H2)
-  - Bold text
-  - Inline code
-  - Code blocks
-  - Lists (ordered and unordered)
-  - Blockquotes
-  - Links
-  - Images
-- Uses Redux to manage state for the editor's content.
+
+✅ **Real-time Markdown preview** with instant updates  
+📜 **Supports Common Markdown Syntax**, including:  
+   - `# Headings (H1, H2, etc.)`
+   - `**Bold text**`
+   - ``Inline code``
+   - ``` Code blocks ```
+   - `- Lists (ordered & unordered)`
+   - `> Blockquotes`
+   - `[Links](https://example.com)`
+   - `![Images](image-url)`
+
+🗂 **Redux-powered state management** for seamless content handling  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React
-- Redux
-- Marked.js
-- Bootstrap (for styling)
-- Vite (for bundling)
+🔹 **React** – For building the UI  
+🔹 **Redux** – For managing state  
+🔹 **Marked.js** – For Markdown parsing  
+🔹 **Bootstrap** – For styling  
+🔹 **Vite** – For lightning-fast development  
 
 ---
 
-## 🏗️  Run the development server:
+## 📂 Project Structure
+
+```
+Frontend-Projects/
+│── 📁 **public/**  
+│   ├── 🖼️ **favicon-32x32.png**   
+│── 📁 **src/**   
+│   ├── 📁 **styles/**  
+│   │   ├── 📄 **App.css**  
+│   │   ├── 📄 **index.css**  
+│   ├── 📄 **App.jsx**
+  │   ├── 📄 **Markdown.jsx**
+│   ├── 📄 **main.jsx**
+│── 📄 **.gitignore**
+│── 📄 **README.md**
+│── 📄 **index.html**
+│── 📄 **eslint.config.js** 
+│── 📄 **package-lock.json**
+│── 📄 **package.json**
+│── 📄 **vite.config.js**
+```
+
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
 ```
 npm run dev
 ```
-This will start the app on http://localhost:3000 (or the port specified by Vite).
+
+This will start the app on http://localhost:5173 (or the port specified by Vite).
 
 ---
+
+
+## 🎨 How It Works
+
+- 📝 **Write Markdown** in the editor panel
+- 👀 **Preview the formatted HTML** in real-time
+- 🔄 **Modify content dynamically** with Redux state management
+
+---
+
