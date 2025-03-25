@@ -1,12 +1,22 @@
-# React + Vite
+# 25 + 5 Clock with Enhanced UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a 25 + 5 clock built using **React**, **Vite**, and **Tailwind CSS** with an improved UI featuring a **video background**, **glassmorphism effect**, and **smooth animations** using **Framer Motion**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Fully responsive design  
+✅ Smooth animations for timer updates  
+✅ Gradient background with enhanced visual appeal  
+✅ Video background for a modern aesthetic  
+✅ Glassmorphism effect for UI elements
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+1. **Clone the Repository**
+
+```bash
+git clone <your-repo-link>
+cd your-project-folder
+```
