@@ -17,6 +17,6 @@ Follow these steps to run the project locally:
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/JurgenHonest/Frontend-Projects.git
+git clone -branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
 cd Frontend-Projects
 ```
