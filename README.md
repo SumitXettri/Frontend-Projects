@@ -61,7 +61,6 @@ Frontend-Projects/
 ```
   git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
   cd Frontend-Projects
-
 ```
 2️⃣ Install dependencies:
 ```
