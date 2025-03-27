@@ -1,6 +1,6 @@
-# 25 + 5 Clock with Enhanced UI
+# ⏳ 25 + 5 Clock 
 
-This project is a 25 + 5 clock built using **React**, **Vite**, and **Tailwind CSS** with an improved UI featuring a **video background**, **glassmorphism effect**, and **smooth animations** using **Framer Motion**.
+A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect,** and smooth animations powered by Framer Motion** for an immersive experience.
 
 ## Features
 
