@@ -37,23 +37,23 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
 ## 📂 Project Structure
 
 ```
-Frontend-Projects/
-│── 📁 **public/**  
-│   ├── 🖼️ **favicon-32x32.png**   
-│── 📁 **src/**   
-│   ├── 📁 **styles/**  
-│   │   ├── 📄 **App.css**  
-│   │   ├── 📄 **index.css**  
-│   ├── 📄 **App.jsx**
-  │   ├── 📄 **Markdown.jsx**
-│   ├── 📄 **main.jsx**
-│── 📄 **.gitignore**
-│── 📄 **README.md**
-│── 📄 **index.html**
-│── 📄 **eslint.config.js** 
-│── 📄 **package-lock.json**
-│── 📄 **package.json**
-│── 📄 **vite.config.js**
+   Frontend-Projects/
+   │── 📁 **public/**  
+   │   ├── 🖼️ **favicon-32x32.png**   
+   │── 📁 **src/**   
+   │   ├── 📁 **styles/**  
+   │   │   ├── 📄 **App.css**  
+   │   │   ├── 📄 **index.css**  
+   │   ├── 📄 **App.jsx**
+     │   ├── 📄 **Markdown.jsx**
+   │   ├── 📄 **main.jsx**
+   │── 📄 **.gitignore**
+   │── 📄 **README.md**
+   │── 📄 **index.html**
+   │── 📄 **eslint.config.js** 
+   │── 📄 **package-lock.json**
+   │── 📄 **package.json**
+   │── 📄 **vite.config.js**
 ```
 
 ## 🚀 Installation
