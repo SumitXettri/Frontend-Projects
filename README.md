@@ -57,7 +57,7 @@ Get started with the project in a few simple steps:
 
 ## 🎥 Preview
 
-📌 Demo: (Live Version)[https://promodoro-style.netlify.app/]
+📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
 
 💡 Tech Stack: React | Vite | Tailwind CSS | Framer Motion
 
