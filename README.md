@@ -16,20 +16,19 @@ A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featur
 📦 25+5-Clock
   ├── 📂 public
   │   ├── 🎥 video.mp4         # Video background asset
-  │   ├── 📄 index.html        # Main HTML file
-  │   ├── 🔧 favicon.ico       # Project favicon
+  │   ├── 🔧 favicon-32x32.png # Project favicon
   ├── 📂 src
+  │   ├── 📂 assests
   │   ├── 📂 components
-  │   │   ├── ⏳ Timer.jsx       # Main timer component
-  │   │   ├── 🎛️ Controls.jsx    # Play/Pause & Reset buttons
-  │   │   ├── 🔊 Audio.jsx       # Beep sound logic
-  │   │   ├── 🎨 Background.jsx  # Video background & effects
+  │   │   ├── ⏳ Clock.jsx       # Main clock component
   │   ├── 📂 styles
-  │   │   ├── 🎨 global.css      # Global Tailwind styles
+  │   ├── 🎨 App.css            # Global Tailwind styles
   │   ├── 🔧 App.jsx            # Main application file
   │   ├── 🏁 main.jsx           # React entry point
+  ├── 📄 .gitignore         
+  ├── 📄 eslint.config         
+  ├── 📄 index.html            # Main HTML file
   ├── 📄 package.json          # Dependencies & scripts
-  ├── 📄 tailwind.config.js    # Tailwind configuration
   ├── 📄 vite.config.js        # Vite configuration
 ```
 
