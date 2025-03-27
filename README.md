@@ -45,7 +45,7 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
    │   │   ├── 📄 **App.css**  
    │   │   ├── 📄 **index.css**  
    │   ├── 📄 **App.jsx**
-     │   ├── 📄 **Markdown.jsx**
+   │   ├── 📄 **Markdown.jsx**
    │   ├── 📄 **main.jsx**
    │── 📄 **.gitignore**
    │── 📄 **README.md**
