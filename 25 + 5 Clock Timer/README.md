@@ -2,6 +2,16 @@
 
 A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect,** and smooth animations powered by Framer Motion** for an immersive experience.
 
+## 🎥 Preview
+
+📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
+
+💡 Tech Stack: React | Vite | Tailwind CSS | Framer Motion
+
+💬 Have suggestions? Feel free to contribute or open an issue! 🚀
+
+---
+
 ## ✨ Features
 
 ✔️ Fully Responsive Design – Works seamlessly on all devices
@@ -54,12 +64,6 @@ Get started with the project in a few simple steps:
 ```
 ---
 
-## 🎥 Preview
 
-📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
-
-💡 Tech Stack: React | Vite | Tailwind CSS | Framer Motion
-
-💬 Have suggestions? Feel free to contribute or open an issue! 🚀
 
 
