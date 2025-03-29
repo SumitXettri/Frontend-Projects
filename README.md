@@ -1,6 +1,6 @@
 # ⏳ 25 + 5 Clock 
 
-A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect,** and smooth animations powered by Framer Motion** for an immersive experience.
+A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect**, and smooth animations powered by **Framer Motion** for an immersive experience.
 
 
 ## 🎥 Preview
