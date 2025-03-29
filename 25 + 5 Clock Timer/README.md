@@ -1,22 +1,65 @@
-# 25 + 5 Clock with Enhanced UI
+# ⏳ 25 + 5 Clock 
 
-This project is a 25 + 5 clock built using **React**, **Vite**, and **Tailwind CSS** with an improved UI featuring a **video background**, **glassmorphism effect**, and **smooth animations** using **Framer Motion**.
+A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect,** and smooth animations powered by Framer Motion** for an immersive experience.
 
-## Features
+## ✨ Features
 
-✅ Fully responsive design  
-✅ Smooth animations for timer updates  
-✅ Gradient background with enhanced visual appeal  
-✅ Video background for a modern aesthetic  
-✅ Glassmorphism effect for UI elements
+✔️ Fully Responsive Design – Works seamlessly on all devices
+✔️ Smooth Animations – Timer updates with sleek transitions
+✔️ Gradient & Video Background – Modern and dynamic visuals
+✔️ Glassmorphism UI – Elegant, frosted-glass effect
+✔️ Framer Motion – Fluid animations for a premium feel
 
-## Installation
-
-Follow these steps to run the project locally:
-
-1. **Clone the Repository**
-
-```bash
-git clone <your-repo-link>
-cd your-project-folder
+---
+## 📁 Project Structure
 ```
+📦 25+5-Clock
+  ├── 📂 public
+  │   ├── 🎥 video.mp4         # Video background asset
+  │   ├── 🔧 favicon-32x32.png # Project favicon
+  ├── 📂 src
+  │   ├── 📂 assests
+  │   ├── 📂 components
+  │   │   ├── ⏳ Clock.jsx       # Main clock component
+  │   ├── 📂 styles
+  │   ├── 🎨 App.css            # Global Tailwind styles
+  │   ├── 🔧 App.jsx            # Main application file
+  │   ├── 🏁 main.jsx           # React entry point
+  ├── 📄 .gitignore         
+  ├── 📄 eslint.config         
+  ├── 📄 index.html            # Main HTML file
+  ├── 📄 package.json          # Dependencies & scripts
+  ├── 📄 vite.config.js        # Vite configuration
+```
+
+
+## 🚀 Installation
+
+Get started with the project in a few simple steps:
+
+1️⃣ Clone the Repository
+
+```
+  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+```
+
+2️⃣ Install Dependencies
+```
+  npm install
+```
+3️⃣ Start the Development Server
+```
+  npm run dev
+```
+---
+
+## 🎥 Preview
+
+📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
+
+💡 Tech Stack: React | Vite | Tailwind CSS | Framer Motion
+
+💬 Have suggestions? Feel free to contribute or open an issue! 🚀
+
+
