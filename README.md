@@ -1,13 +1,33 @@
 # ⏳ 25 + 5 Clock 
 
-A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect**, and smooth animations powered by **Framer Motion** for an immersive experience.
-
+A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featuring a video background, **glassmorphism effect,** and smooth animations powered by Framer Motion** for an immersive experience.
 
 ## 🎥 Preview
 ![{139A8228-3988-4F2A-A80F-FD5F1FFF1F3F}](https://github.com/user-attachments/assets/dce0c1c1-716a-44bc-9114-6b049dc47519)
 
 
 📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
+
+## 🚀 Installation
+
+Get started with the project in a few simple steps:
+
+1️⃣ Clone the Repository
+
+```
+  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+```
+
+2️⃣ Install Dependencies
+```
+  npm install
+```
+3️⃣ Start the Development Server
+```
+  npm run dev
+```
+---
 
 💡 Tech Stack: React | Vite | Tailwind CSS | Framer Motion
 
@@ -46,26 +66,8 @@ A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featur
 ```
 
 
-## 🚀 Installation
 
-Get started with the project in a few simple steps:
 
-1️⃣ Clone the Repository
-
-```
-  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-```
-
-2️⃣ Install Dependencies
-```
-  npm install
-```
-3️⃣ Start the Development Server
-```
-  npm run dev
-```
----
 
 
 
