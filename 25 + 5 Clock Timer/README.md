@@ -8,6 +8,27 @@ A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featur
 
 📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
 
+## 🚀 Installation
+
+Get started with the project in a few simple steps:
+
+1️⃣ Clone the Repository
+
+```
+  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+```
+
+2️⃣ Install Dependencies
+```
+  npm install
+```
+3️⃣ Start the Development Server
+```
+  npm run dev
+```
+---
+
 💡 Tech Stack: React | Vite | Tailwind CSS | Framer Motion
 
 💬 Have suggestions? Feel free to contribute or open an issue! 🚀
@@ -45,26 +66,7 @@ A **Pomodoro-style** timer built using **React, Vite, and Tailwind CSS,** featur
 ```
 
 
-## 🚀 Installation
 
-Get started with the project in a few simple steps:
-
-1️⃣ Clone the Repository
-
-```
-  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-```
-
-2️⃣ Install Dependencies
-```
-  npm install
-```
-3️⃣ Start the Development Server
-```
-  npm run dev
-```
----
 
 
 
