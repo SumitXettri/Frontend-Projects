@@ -8,6 +8,32 @@ This project provides **three different ways** to generate quotes:
 
 🔹 **Easily copy quotes** or **share them on social media** with a simple click! 
 
+## 🎥 Preview
+![{139A8228-3988-4F2A-A80F-FD5F1FFF1F3F}](https://github.com/user-attachments/assets/dce0c1c1-716a-44bc-9114-6b049dc47519)
+
+
+📌 Demo: [Live Version](https://promodoro-style.netlify.app/)
+
+## 🚀 Installation
+
+Get started with the project in a few simple steps:
+
+1️⃣ Clone the Repository
+
+```
+  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+```
+
+2️⃣ Install Dependencies
+```
+  npm install
+```
+3️⃣ Start the Development Server
+```
+  npm run dev
+```
+
 ---
 
 ## 📌 Features  
