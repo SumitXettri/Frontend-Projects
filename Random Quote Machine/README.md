@@ -10,24 +10,20 @@ This project provides **three different ways** to generate quotes:
 
 
 ## 🚀 Installation
-
-Get started with the project in a few simple steps:
-
-1️⃣ Clone the Repository
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
 
 ```
-  git clone --branch 25 https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-```
-
-2️⃣ Install Dependencies
+2️⃣ Install dependencies:
 ```
   npm install
 ```
-3️⃣ Start the Development Server
+3️⃣ Start the development server:
 ```
-  npm run dev
+npm run dev
 ```
+
 
 ---
 
@@ -57,20 +53,6 @@ Here's an overview of the file structure for this project:
 ├── README.md         # Documentation and project details  
 ```
 
-## 🚀 Installation
-1️⃣ ***Clone the repository***:  
-```
-  git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
-
-```
-2️⃣ Install dependencies:
-```
-  npm install
-```
-3️⃣ Start the development server:
-```
-npm run dev
-```
 
 ---
 
