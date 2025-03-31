@@ -2,8 +2,29 @@
 
 A web-based piano application built with **React**, **Vite**, and **Tailwind CSS**. This app allows users to interact with a virtual piano by pressing keys on their keyboard or clicking on the piano keys with their mouse. It also features a clean, responsive design using modern web technologies.
 
-🌟 **Live Demo**: Check it out [here](https://pianobg.netlify.app/)
+## 🎥 Preview
+![{55C112DC-EB3E-4AFB-8323-3A2D25BE7451}](https://github.com/user-attachments/assets/e9c95ed2-5415-4207-a154-f4c99c6dc941)
 
+🌟 **Live Demo**: Check it out [Live Version](https://pianobg.netlify.app/)
+
+---
+
+## 🚀 Installation  
+
+1️⃣ **Clone the repository**:  
+```
+  git clone --branch piano https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+  npm run dev
+```
 
 ---
 
@@ -36,23 +57,6 @@ Make sure you have the following installed on your machine:
 
 ---
 
-## 🚀 Installation  
-
-1️⃣ **Clone the repository**:  
-```
-  git clone --branch piano https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-
-```
-2️⃣ Install dependencies:
-```
-  npm install
-```
-3️⃣ Start the development server:
-```
-  npm run dev
-```
----
 
 📂 Project Structure
 ```
