@@ -5,6 +5,26 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
 🌟 **Live Demo:**  
 🔗 [Check it out here](https://markdown-previewer67.netlify.app/)
 
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
+```
+
+This will start the app on http://localhost:5173 (or the port specified by Vite).
+
+---
+
+
 ---
 
 ## 🚀 Features
@@ -56,25 +76,6 @@ Frontend-Projects/
 │── 📄 **vite.config.js**
 ```
 
-## 🚀 Installation
-1️⃣ ***Clone the repository***:  
-```
-  git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-
-```
-2️⃣ Install dependencies:
-```
-  npm install
-```
-3️⃣ Start the development server:
-```
-npm run dev
-```
-
-This will start the app on http://localhost:5173 (or the port specified by Vite).
-
----
 
 
 ## 🎨 How It Works
