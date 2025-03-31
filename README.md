@@ -51,8 +51,11 @@ Here are some of the projects you'll find in this repository:
 ✅ Live preview with support for common Markdown syntax.  
 🔗 **[Live Demo](https://markdown-previewer67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/Markdow)  
 
-
 ---
+### 6️⃣ **25 + 5 Clock** ⏲️
+A **Pomodoro-style timer** with 25-minute work and 5-minute break sessions.
+✅ Built using React & Redux, supports session adjustments.
+🔗 **[Live Demo](https://promodoro-style.netlify.app/) | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/25)
 
 ## 🛠️ Tools and Technologies Used
 
