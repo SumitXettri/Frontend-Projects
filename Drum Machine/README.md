@@ -19,7 +19,7 @@ Get started with the project in a few simple steps:
 1️⃣ Clone the Repository
 
 ```
-  git clone --branch drum https://github.com/JurgenHonest/Frontend-Projects.git
+  git clone --branch deploy https://github.com/JurgenHonest/Frontend-Projects.git
   cd Frontend-Projects
 ```
 
