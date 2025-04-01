@@ -37,11 +37,13 @@ Get started with the project in a few simple steps:
 
 ## ✨ Features
 
-✔️ Fully Responsive Design – Works seamlessly on all devices
-✔️ Smooth Animations – Timer updates with sleek transitions
-✔️ Gradient & Video Background – Modern and dynamic visuals
-✔️ Glassmorphism UI – Elegant, frosted-glass effect
+
+✔️ Fully Responsive Design – Works seamlessly on all devices<br>
+✔️ Smooth Animations – Timer updates with sleek transitions<br>
+✔️ Gradient & Video Background – Modern and dynamic visuals<br>
+✔️ Glassmorphism UI – Elegant, frosted-glass effect<br>
 ✔️ Framer Motion – Fluid animations for a premium feel
+
 
 ---
 ## 📁 Project Structure
