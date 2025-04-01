@@ -29,7 +29,7 @@ Get started with the project in a few simple steps:
 ```
 ---
 
-💡 Tech Stack: **React** |** Vite** | **Tailwind CSS | Framer Motion**
+💡 Tech Stack: **React | Vite** | **Tailwind CSS | Framer Motion**
 
 💬 Have suggestions? Feel free to contribute or open an issue! 🚀
 
