@@ -57,6 +57,8 @@ A **Pomodoro-style timer** with 25-minute work and 5-minute break sessions.
 ✅ Built using React & Redux, supports session adjustments.
 🔗 **[Live Demo](https://promodoro-style.netlify.app/) | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/25)
 
+---
+
 ## 🛠️ Tools and Technologies Used
 
 - **Languages**: HTML, CSS, JavaScript.
