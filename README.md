@@ -7,15 +7,6 @@ A simple React-based calculator that supports basic arithmetic operations (`+`, 
 
 ---
 
-## 🚀 Features
-
-- ➕ Perform basic arithmetic calculations.
-- 📝 Display the formula and result dynamically.
-- 🔄 Reset the calculator using the "**AC**" button.
-- 🔢 Handle decimal inputs.
-- 🚫 Prevent invalid input sequences (e.g., multiple decimals).
-
----
 
 ## 🚀 Installation
 
@@ -33,6 +24,17 @@ A simple React-based calculator that supports basic arithmetic operations (`+`, 
 ```
 npm run dev
 ```
+---
+
+
+## 🚀 Features
+
+- ➕ Perform basic arithmetic calculations.
+- 📝 Display the formula and result dynamically.
+- 🔄 Reset the calculator using the "**AC**" button.
+- 🔢 Handle decimal inputs.
+- 🚫 Prevent invalid input sequences (e.g., multiple decimals).
+
 ---
 
 
