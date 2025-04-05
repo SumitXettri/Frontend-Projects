@@ -10,8 +10,6 @@ A simple drum machine built using React, Tailwind CSS, and Vite. This project al
 ## 🌟 Live Demo  
 🔗 **Check it out here:** [Drum Machine](https://drummachine67.netlify.app/)
 
----
-
 ## 🚀 Installation
 
 Get started with the project in a few simple steps:
@@ -31,6 +29,9 @@ Get started with the project in a few simple steps:
 ```
   npm run dev
 ```
+---
+
+
 ---
 
 ## 📂 Project Structure  
