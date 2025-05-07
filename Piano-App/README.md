@@ -4,8 +4,6 @@ A web-based piano application built with **React**, **Vite**, and **Tailwind CSS
 
 ## 🎥 Preview
 ![{55C112DC-EB3E-4AFB-8323-3A2D25BE7451}](https://github.com/user-attachments/assets/e9c95ed2-5415-4207-a154-f4c99c6dc941)
-![Uploading {320EA53A-7068-4AEE-B9DF-1C93CD9C304F}.png…]()
-
 
 🌟 **Live Demo**: Check it out [Live Version](https://pianobg.netlify.app/)
 
