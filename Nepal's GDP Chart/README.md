@@ -85,8 +85,10 @@ Make sure you have the following installed on your machine:
 
 ---
 ## 🖥️ Usage
-- Click on any of the piano keys or press corresponding keys on your keyboard (e.g., A, S, D, etc.) to play notes.
-- The app features a **responsive design**, making it usable on both **desktop and mobile devices**.
+- Hover over any bar to see GDP values in billions with a highlight.
+- Tooltip shows formatted GDP and year with dynamic position.
+- The chart adapts to screen size and looks sleek on both mobile and desktop.
+- Includes a glowing effect on bar hover and centered animated background.
 
 ---
 
@@ -94,4 +96,4 @@ Make sure you have the following installed on your machine:
 - **Tailwind CSS**: For providing an excellent utility-first CSS framework.
 - **React**: For the powerful JavaScript library to build user interfaces.
 - **Vite**: For its blazing-fast development environment.
-- 
+- **D3.js** – For chart rendering and data visualization utilities.
