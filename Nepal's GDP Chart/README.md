@@ -3,7 +3,6 @@
 An interactive and animated GDP Bar Chart built using React, Vite, Tailwind CSS, and D3.js. This chart visualizes Nepal's GDP growth over time with a modern UI, tooltip interactivity, gradient-filled bars, and animated hover effects. Designed for responsiveness and visual clarity.
 
 ## 🎥 Preview
-![{55C112DC-EB3E-4AFB-8323-3A2D25BE7451}](https://github.com/user-attachments/assets/e9c95ed2-5415-4207-a154-f4c99c6dc941)
 ![image](https://github.com/user-attachments/assets/a8a549b8-4890-4832-b089-3424d6ddac2f)
 
 
