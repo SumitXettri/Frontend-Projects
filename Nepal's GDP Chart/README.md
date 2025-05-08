@@ -7,7 +7,7 @@ An interactive and animated GDP Bar Chart built using React, Vite, Tailwind CSS,
 
 
 
-🌟 **Live Demo**: Check it out [Live Version](https://pianobg.netlify.app/)
+🌟 **Live Demo**: Check it out [Live Version](https://nepals-gdp.netlify.app/)
 
 ---
 
