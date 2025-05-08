@@ -1,0 +1,117 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #0d1117; /* fallback color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+  background: url("https://i.giphy.com/3ov9k1173PdfJWRsoE.webp") repeat center
+    center fixed;
+  background-size: center;
+  padding: 20px;
+}
+
+.visHolder {
+  position: relative;
+  margin: 90px auto 20px auto;
+  width: 940px;
+  display: flex;
+  padding: 2rem;
+  color: #fff;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  align-items: center;
+  padding: 40px;
+  background-color: rgba(34, 33, 33, 0.67);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.responsive-svg {
+  width: 100%;
+  height: auto;
+}
+
+.chart-container {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+}
+.chart-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bar {
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+#x-axis text,
+#y-axis text {
+  font-size: 14px;
+  fill: #666;
+}
+
+#x-axis path,
+#y-axis path {
+  stroke: #ccc;
+  stroke-width: 1;
+}
+
+#x-axis line,
+#y-axis line {
+  stroke: #eee;
+}
+.axis-label {
+  font-size: 14px;
+  fill: #444;
+  font-weight: bold;
+}
+
+.bar:hover {
+  filter: brightness(1.1);
+  stroke: #ff5733;
+  stroke-width: 1;
+}
