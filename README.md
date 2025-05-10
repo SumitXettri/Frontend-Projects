@@ -53,15 +53,15 @@ Here are some of the projects you'll find in this repository:
 
 ---
 ### 6️⃣ **25 + 5 Clock** ⏲️
-A **Pomodoro-style timer** with 25-minute work and 5-minute break sessions.
-✅ Built using React & Redux, supports session adjustments.
+A **Pomodoro-style timer** with 25-minute work and 5-minute break sessions.<br>
+✅ Built using React & Redux, supports session adjustments.<br>
 🔗 **[Live Demo](https://promodoro-style.netlify.app/) | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/25)
 
 ---
 
-### 6️⃣ **Nepal's GDP Graph** ⏲📊
-An **animated GDP Bar Chart** 
-✅ Built using React & D3js, supports session adjustments.
+### 7️⃣ **Nepal's GDP Graph** ⏲📊
+An **animated GDP Bar Chart** <br>
+✅ Built using React & D3js, supports session adjustments.<br>
 🔗 **[Live Demo](https://nepals-gdp.netlify.app/) | 📂 [Source Code](https://github.com/SumitXettri/Frontend-Projects/tree/gdp)
 
 ---
