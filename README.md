@@ -49,7 +49,7 @@ Here are some of the projects you'll find in this repository:
 ### 5️⃣ **Markdown Previewer** 📝  
 **Preview Markdown in real-time** as you type.  
 ✅ Live preview with support for common Markdown syntax.  
-🔗 **[Live Demo](https://markdown-previewer67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/Markdow)  
+🔗 **[Live Demo](https://markdown-previewer67.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/Markdown)  
 
 ---
 ### 6️⃣ **25 + 5 Clock** ⏲️
