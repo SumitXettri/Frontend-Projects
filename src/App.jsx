@@ -7,22 +7,23 @@ function App() {
     const visHolder = d3.select(".visHolder");
     const containerWidth = parseInt(visHolder.style("width"));
     const data = [
-      { year: "2010", gdp: 15.2 },
-      { year: "2011", gdp: 16.5 },
-      { year: "2012", gdp: 18.0 },
-      { year: "2013", gdp: 19.4 },
-      { year: "2014", gdp: 20.0 },
-      { year: "2015", gdp: 21.5 },
-      { year: "2016", gdp: 22.7 },
-      { year: "2017", gdp: 24.1 },
-      { year: "2018", gdp: 25.4 },
-      { year: "2019", gdp: 25.4 },
-      { year: "2020", gdp: 26.8 },
-      { year: "2021", gdp: 26.8 },
-      { year: "2022", gdp: 26.8 },
-      { year: "2023", gdp: 26.8 },
-      { year: "2024", gdp: 26.8 },
-    ];
+  { year: "2010", gdp: 16.00 },
+  { year: "2011", gdp: 21.57 },
+  { year: "2012", gdp: 21.70 },
+  { year: "2013", gdp: 22.16 },
+  { year: "2014", gdp: 22.73 },
+  { year: "2015", gdp: 24.36 },
+  { year: "2016", gdp: 24.52 },
+  { year: "2017", gdp: 28.97 },
+  { year: "2018", gdp: 33.11 },
+  { year: "2019", gdp: 34.19 },
+  { year: "2020", gdp: 33.43 },
+  { year: "2021", gdp: 36.92 },
+  { year: "2022", gdp: 41.18 },
+  { year: "2023", gdp: 40.91 },
+  { year: "2024", gdp: 43.67 }, 
+];
+
 
     visHolder.selectAll("*").remove();
     const margin = { top: 20, right: 20, bottom: 50, left: 60 };
