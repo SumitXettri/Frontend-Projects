@@ -16,7 +16,12 @@ function App() {
       { year: "2016", gdp: 22.7 },
       { year: "2017", gdp: 24.1 },
       { year: "2018", gdp: 25.4 },
-      { year: "2019", gdp: 26.8 },
+      { year: "2019", gdp: 25.4 },
+      { year: "2020", gdp: 26.8 },
+      { year: "2021", gdp: 26.8 },
+      { year: "2022", gdp: 26.8 },
+      { year: "2023", gdp: 26.8 },
+      { year: "2024", gdp: 26.8 },
     ];
 
     visHolder.selectAll("*").remove();
@@ -170,7 +175,7 @@ function App() {
         tooltip
           .style("opacity", 0.9)
           .html(
-            `<strong>Year:</strong> ${d.year}<br><strong>GDP:</strong> ₹ ${d.gdp
+            `<strong>Year:</strong> ${d.year}<br><strong>GDP:</strong> $ ${d.gdp
               .toFixed(1)
               .replace(/(\d)(?=(\d{3})+\.)/g, "$1,")} Billion`
           )
