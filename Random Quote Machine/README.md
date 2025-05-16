@@ -1,23 +1,6 @@
 # 🌟 Random Quote Generator 
 
 A simple **Random Quote Generator** built using **HTML, CSS, and JavaScript**.  
-
-## 🚀 Installation
-1️⃣ ***Clone the repository***:  
-```
-  git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-```
-2️⃣ Install dependencies:
-```
-  npm install
-```
-3️⃣ Start the development server:
-```
-npm run dev
-```
----
-
 This project provides **three different ways** to generate quotes:  
 1️⃣ **Using an API** – Fetches quotes dynamically from an online source.  
 2️⃣ **Using a JSON file** – Loads quotes from a local JSON file.  
@@ -25,8 +8,14 @@ This project provides **three different ways** to generate quotes:
 
 🔹 **Easily copy quotes** or **share them on social media** with a simple click! 
 
-
 ---
+## 🎥 Preview
+![{68788FD6-6C2D-48C4-B075-199F03AE0E12}](https://github.com/user-attachments/assets/3163764e-4f95-41fb-b79c-d6cb75831109)
+
+
+
+## 🌟 Live Demo  
+🔗 **Check it out here:** [Random Quote Machine](https://random-quote-gr.netlify.app/)
 
 ## 📌 Features  
 - ✔ **Dynamic Quote Fetching** from an API.  
@@ -54,6 +43,20 @@ Here's an overview of the file structure for this project:
 ├── README.md         # Documentation and project details  
 ```
 
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch random https://github.com/JurgenHonest/Frontend-Projects.git
+
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
+```
 
 ---
 
