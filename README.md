@@ -20,7 +20,7 @@ Here are some of the projects you'll find in this repository:
 ### 1️⃣ **Random Quote Generator** 📝  
 **Get inspired!** Generates random motivational quotes with a single click.  
 ✅ Fetches **quotes dynamically** & includes **tweet sharing**.  
-🔗 **[Live Demo](https://yourusername.github.io/random-quote-generator/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/random)  
+🔗 **[Live Demo](https://random-quote-gr.netlify.app/)** | 📂 [Source Code](https://github.com/JurgenHonest/Frontend-Projects/tree/random)  
 
 ---
 
