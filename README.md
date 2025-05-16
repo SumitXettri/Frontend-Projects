@@ -9,6 +9,13 @@ This project provides **three different ways** to generate quotes:
 🔹 **Easily copy quotes** or **share them on social media** with a simple click! 
 
 ---
+## 🎥 Preview
+![{68788FD6-6C2D-48C4-B075-199F03AE0E12}](https://github.com/user-attachments/assets/3163764e-4f95-41fb-b79c-d6cb75831109)
+
+
+
+## 🌟 Live Demo  
+🔗 **Check it out here:** [Random Quote Machine](https://random-quote-gr.netlify.app/)
 
 ## 📌 Features  
 - ✔ **Dynamic Quote Fetching** from an API.  
