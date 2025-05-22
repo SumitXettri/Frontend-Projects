@@ -1,0 +1,23 @@
+const animalsList = [
+  "Tiger",
+  "Horse",
+  "Eagle",
+  "Shark",
+  "Zebra",
+  "Whale",
+  "Goose",
+  "Crab",
+  "Otter",
+  "Llama",
+  "Panda",
+  "Snake",
+  "Frog",
+  "Mole",
+  "Duck",
+  "Beetle",
+  "Lobster",
+  "Camel",
+  "Cobra",
+  "Sheep",
+];
+export default animalsList;

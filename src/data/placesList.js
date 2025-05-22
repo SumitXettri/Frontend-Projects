@@ -1,0 +1,23 @@
+const placesList = [
+  "Paris",
+  "Delhi",
+  "Cairo",
+  "Berlin",
+  "Tokyo",
+  "Milan",
+  "Lagos",
+  "Rome",
+  "Miami",
+  "Kyoto",
+  "Malta",
+  "Sydney",
+  "Venus",
+  "Dakar",
+  "Oslo",
+  "Lima",
+  "Hanoi",
+  "Seoul",
+  "Austin",
+  "Nice",
+];
+export default placesList;

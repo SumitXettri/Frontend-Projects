@@ -1,0 +1,23 @@
+const foodList = [
+  "Apple",
+  "Bread",
+  "Cheese",
+  "Donut",
+  "Mango",
+  "Onion",
+  "Peach",
+  "Pasta",
+  "Pizza",
+  "Quiche",
+  "Rice",
+  "Salad",
+  "Soup",
+  "Tacos",
+  "Bread",
+  "Beans",
+  "Corn",
+  "Grape",
+  "Lemon",
+  "Olive",
+];
+export default foodList;

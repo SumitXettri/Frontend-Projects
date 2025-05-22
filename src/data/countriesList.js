@@ -1,0 +1,23 @@
+const countriesList = [
+  "India",
+  "China",
+  "Brazil",
+  "Nepal",
+  "Spain",
+  "Italy",
+  "Chile",
+  "Kenya",
+  "Gabon",
+  "Fiji",
+  "Qatar",
+  "Iceland",
+  "Haiti",
+  "Malta",
+  "Oman",
+  "Palau",
+  "Syria",
+  "Niger",
+  "Tonga",
+  "Libya",
+];
+export default countriesList;

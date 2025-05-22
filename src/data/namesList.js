@@ -1,0 +1,23 @@
+const namesList = [
+  "Alice",
+  "Brian",
+  "Clara",
+  "David",
+  "Emily",
+  "Frank",
+  "Grace",
+  "Henry",
+  "Irene",
+  "James",
+  "Karen",
+  "Laura",
+  "Mark",
+  "Nina",
+  "Oscar",
+  "Paula",
+  "Quinn",
+  "Ralph",
+  "Susan",
+  "Tommy",
+];
+export default namesList;
