@@ -9,6 +9,8 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
 🌟 **Live Demo:**  
 🔗 [Check it out here](https://markdown-previewer67.netlify.app/)
 
+---
+
 ## 🚀 Installation
 1️⃣ ***Clone the repository***:  
 ```
@@ -25,9 +27,6 @@ npm run dev
 ```
 
 This will start the app on http://localhost:5173 (or the port specified by Vite).
-
----
-
 
 ---
 
@@ -61,24 +60,25 @@ This will start the app on http://localhost:5173 (or the port specified by Vite)
 ## 📂 Project Structure
 
 ```
-Frontend-Projects/
-│── 📁 **public/**  
-│   ├── 🖼️ **favicon-32x32.png**   
-│── 📁 **src/**   
-│   ├── 📁 **styles/**  
-│   │   ├── 📄 **App.css**  
-│   │   ├── 📄 **index.css**  
-│   ├── 📄 **App.jsx**
-  │   ├── 📄 **Markdown.jsx**
-│   ├── 📄 **main.jsx**
-│── 📄 **.gitignore**
-│── 📄 **README.md**
-│── 📄 **index.html**
-│── 📄 **eslint.config.js** 
-│── 📄 **package-lock.json**
-│── 📄 **package.json**
-│── 📄 **vite.config.js**
+   Frontend-Projects/
+   │── 📁 **public/**  
+   │   ├── 🖼️ **favicon-32x32.png**   
+   │── 📁 **src/**   
+   │   ├── 📁 **styles/**  
+   │   │   ├── 📄 **App.css**  
+   │   │   ├── 📄 **index.css**  
+   │   ├── 📄 **App.jsx**
+   │   ├── 📄 **Markdown.jsx**
+   │   ├── 📄 **main.jsx**
+   │── 📄 **.gitignore**
+   │── 📄 **README.md**
+   │── 📄 **index.html**
+   │── 📄 **eslint.config.js** 
+   │── 📄 **package-lock.json**
+   │── 📄 **package.json**
+   │── 📄 **vite.config.js**
 ```
+
 
 
 
