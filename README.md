@@ -3,6 +3,7 @@
 A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. This project enables users to type Markdown syntax in an editor and instantly preview the rendered **HTML output**.
 
 ## 🎥 Preview
+
 ![image](https://github.com/user-attachments/assets/611cbd71-9d4a-4e4d-a053-93b9e7a54a9e)
 
 
