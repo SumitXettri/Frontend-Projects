@@ -76,7 +76,9 @@ An **animated GDP Bar Chart** <br>
 ---
 
 ## 🚀 How to Use
+
  Navigate to the project folder and run the project locally. Detailed setup instructions for each project are available in their respective folders.
+ 
 ---
 
 ## 💡 Learning Goals
