@@ -6,8 +6,8 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
 ![image](https://github.com/user-attachments/assets/611cbd71-9d4a-4e4d-a053-93b9e7a54a9e)
 
 
-🌟 **Live Demo:**  
-🔗 [Check it out here](https://markdown-previewer67.netlify.app/)
+## 🌟 **Live Demo:**  
+🔗 **Check it out here:** [Markdown Previewer](https://markdown-previewer67.netlify.app/)
 
 ---
 
