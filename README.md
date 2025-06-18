@@ -76,13 +76,7 @@ An **animated GDP Bar Chart** <br>
 ---
 
 ## 🚀 How to Use
-
-1. Clone the repository:  
-   (if want to clone only single project then follow step 2)
-    ```
-   git clone https://github.com/JurgenHonest/frontend-projects.git
-   ```
-2. Navigate to the project folder and run the project locally. Detailed setup instructions for each project are available in their respective folders.
+ Navigate to the project folder and run the project locally. Detailed setup instructions for each project are available in their respective folders.
 ---
 
 ## 💡 Learning Goals
