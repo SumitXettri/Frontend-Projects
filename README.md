@@ -2,8 +2,31 @@
 
 A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. This project enables users to type Markdown syntax in an editor and instantly preview the rendered **HTML output**.
 
-🌟 **Live Demo:**  
+## 🎥 Preview
+![image](https://github.com/user-attachments/assets/611cbd71-9d4a-4e4d-a053-93b9e7a54a9e)
+
+
+## 🌟 **Live Demo:**  
 🔗 [Check it out here](https://markdown-previewer67.netlify.app/)
+
+---
+
+## 🚀 Installation
+1️⃣ ***Clone the repository***:  
+```
+  git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
+  cd Frontend-Projects
+```
+2️⃣ Install dependencies:
+```
+  npm install
+```
+3️⃣ Start the development server:
+```
+npm run dev
+```
+
+This will start the app on http://localhost:5173 (or the port specified by Vite).
 
 ---
 
@@ -56,24 +79,7 @@ A **React-based Markdown Previewer** built with **Redux** and **Marked.js**. Thi
    │── 📄 **vite.config.js**
 ```
 
-## 🚀 Installation
-1️⃣ ***Clone the repository***:  
-```
-  git clone --branch Markdown https://github.com/JurgenHonest/Frontend-Projects.git
-  cd Frontend-Projects
-```
-2️⃣ Install dependencies:
-```
-  npm install
-```
-3️⃣ Start the development server:
-```
-npm run dev
-```
 
-This will start the app on http://localhost:5173 (or the port specified by Vite).
-
----
 
 
 ## 🎨 How It Works
